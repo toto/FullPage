@@ -4,6 +4,8 @@
 <dict>
 	<key>Author</key>
 	<string>Thomas Kollbach</string>
+	<key>Builder Version</key>
+	<string>7534.52.7</string>
 	<key>CFBundleDisplayName</key>
 	<string>FullPage</string>
 	<key>CFBundleIdentifier</key>
