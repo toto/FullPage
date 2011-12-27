@@ -22,13 +22,12 @@ function $(q, root, single) {
 function appendAllZeit(){
     var links = $("//a[contains(@href,'zeit.de')]");
     for (var i=0; i < links.snapshotLength; i++) {
-      if (links.snapshotItem(i).href.indexOf('page=all') == -1) {
-        links.snapshotItem(i).href = links.snapshotItem(i).href + "?page=all";        
+      if (links.snapshotItem(i).href.indexOf('/komplettansicht') == -1) {
+        links.snapshotItem(i).href = links.snapshotItem(i).href + "/komplettansicht";        
       }
 
     }
 }
-
 
 document.addEventListener(
   'load',
