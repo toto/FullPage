@@ -1,7 +1,7 @@
 /*
 	httpsecure.js
 	
-	Written by toto toto. 
+	Written by toto. 
 	
 	Source hosted on Github at https://github.com/toto/FullPage
 	License: CC BY-SA-NC 3.0, See README.md for more information.
@@ -22,7 +22,10 @@ function $(q, root, single) {
 function appendAllZeit(){
     var links = $("//a[contains(@href,'zeit.de')]");
     for (var i=0; i < links.snapshotLength; i++) {
-      if (links.snapshotItem(i).href.indexOf('/komplettansicht') == -1) {
+      // ignore already extended links as well as blog links
+      if (links.snapshotItem(i).href.indexOf('/komplettansicht') == -1 &&
+          links.snapshotItem(i).href.indexOf('blog.zeit.de') == -1) 
+      {
         links.snapshotItem(i).href = links.snapshotItem(i).href + "/komplettansicht";        
       }
 
