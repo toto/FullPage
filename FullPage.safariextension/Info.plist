@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Thomas Kollbach</string>
 	<key>Builder Version</key>
-	<string>7534.52.7</string>
+	<string>10600.6.3</string>
 	<key>CFBundleDisplayName</key>
 	<string>FullPage</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.0.1</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -34,6 +34,8 @@
 	</dict>
 	<key>Description</key>
 	<string>Displays the full page on news sites by default</string>
+	<key>DeveloperIdentifier</key>
+	<string>DZM8538E3E</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
