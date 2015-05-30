@@ -25,7 +25,7 @@ function appendAllZeit(){
       // ignore already extended links as well as blog links
       if (links.snapshotItem(i).href.indexOf('/komplettansicht') == -1 &&
           links.snapshotItem(i).href.indexOf('blog.zeit.de') == -1 &&
-		  !links.snapshotItem(i).href.match(/\/\d\d\d\d-\d\d\//)) 
+		  !links.snapshotItem(i).href.match(/\/(seite\-\d|weitere)/)) 
       {
         links.snapshotItem(i).href = links.snapshotItem(i).href + "/komplettansicht";        
       }
